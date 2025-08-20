@@ -1,0 +1,29 @@
+Database
+
+user - volunteer - default
+event - Name, detail, startdate, enddate, fileId, locationId
+register   - eventide, userId, registeredDate
+feedback - detail, userId, rating..
+weather - locationId, date, detail....
+email template - Subject, Body, TemplateNumber
+email logs
+File - filecontent, name
+
+roles
+Admin - config events, configurations screen
+Registered - register event, feedback, browse upcoming events
+anonymous
+
+Screens
+Anonymous
+Register account - username + password ()
+
+Main - Events
+feedback - only when event end
+
+Timer:
+config n day before event start - send reminder email to volunteers
+
+
+database -> roles/timer -> screens + flow
+
